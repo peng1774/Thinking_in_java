@@ -1,4 +1,4 @@
-package chap7_polymorphism;
+package chap7_polymorphism.excercise16;
 import static java.lang.System.out;
 
 class AlertStatus{
