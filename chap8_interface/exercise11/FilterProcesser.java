@@ -8,7 +8,8 @@ class FilterAdapter implements Processor{
 }
 
 public class FilterProcesser{
-	public static void main(String[] args){
+	//public static void main(String[] args){
+	public void start(){
 		Waveform w = new Waveform();
 		Apply.apply(new FilterAdapter(new Highpass(2.0)), w);
 		Apply.apply(new FilterAdapter(new Lowpass(1.0)), w);

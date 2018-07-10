@@ -7,7 +7,8 @@ class SwapAdapter implements Processor{
 }
 
 public class StringSwapProcesser{
-	public static void main(String[] args){
+	//public static void main(String[] args){
+	public void start(){
 		String s = "StringSwap";
 		Apply.apply(new SwapAdapter(), s);
 	}
