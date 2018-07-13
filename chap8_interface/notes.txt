@@ -1,0 +1,2 @@
+Interface - factories
+typical way to produce objects that fit the interface is Factory Method instead of calling constructor.
