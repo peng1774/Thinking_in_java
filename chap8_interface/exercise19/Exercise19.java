@@ -25,7 +25,7 @@ class Coin implements Toss{
 class Dice implements Toss{
 	public void toss(){ 
 		Random rand = new Random();
-		int rand_int1 = rand.nextInt(6);
+		int rand_int1 = rand.nextInt(6) + 1;
 		out.println("dice tosses: " + rand_int1);
 	}
 }
