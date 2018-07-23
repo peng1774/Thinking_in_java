@@ -7,7 +7,7 @@ interface U{
 }
 
 class A{
-	// static U getU = new U(){
+	//static U getU = new U(){
 	U getU = new U(){
 		public void A(){ out.println("A()"); };
 		public void B(){ out.println("B()"); };
